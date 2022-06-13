@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="60dp"
+    tools:context=".ui.ResultFragment">
+
+
+    <EditText
+        android:id="@+id/named1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ВАШ РЕЗУЛЬТАТ"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/ttt"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/ddd" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/ic_dd_24" />
+
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bbb" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="100%"
+        android:textColor="@color/pink"
+        android:textSize="50dp" />
+
+
+    <EditText
+        android:id="@+id/named2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="ВСЕ К ЛУЧШЕМУ"
+        android:textColor="@color/ttt"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="ПРОЙТИ ЕЩЕ РАЗ" />
+
+
+</LinearLayout>

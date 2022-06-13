@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainFragment">
+
+
+
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="CALCULATOR YOUR LOVE"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bbb" />
+
+    <EditText
+        android:id="@+id/firstNameEd"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/ttt"
+        android:gravity="center"
+        android:hint="ОНА(ОН)"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ddd" />
+
+    <EditText
+        android:id="@+id/secondNameEd"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/pink"
+        android:gravity="center"
+        android:hint="ОНА(ОН)"
+        android:textColor="#000000"
+
+        android:textSize="20sp" />
+
+
+    <Button
+        android:hint="РЕЗУЛЬТАТ"
+        android:id="@+id/tryBtn"
+        android:layout_marginTop="30sp"
+        android:layout_width="400dp"
+        android:layout_height="50dp"/>
+
+
+
+
+</LinearLayout>
